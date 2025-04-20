@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 300px;
+            border: 5px solid blue;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #contain {
+            object-fit: contain;
+        }
+
+        #cover {
+            object-fit: cover;
+        }
+
+        #none {
+            object-fit: none;
+        }
+
+        #scale-down {
+            object-fit: scale-down;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Propriedade</h1> <code>object-fit</code>
+
+    <code>object-fit: contain;</code> (padrão)
+    <div>
+        <img src="AULAS-DE-CSS/images.png" alt="" id="fill">
+    </div>
+    <hr>
+    <code>object-fit: fill;</code>
+    <div>
+        <img src="AULAS-DE-CSS/images.png" alt="" id="contain">
+    </div>
+    <hr>
+    <code>object-fit: cover;</code>
+    <div>
+        <img src="AULAS-DE-CSS/images.png" alt="" id="cover">
+    </div>
+    <hr>
+    <code>object-fit: none;</code>
+    <div>
+        <img src="AULAS-DE-CSS/images.png" alt="" id="none">
+    </div>
+    <hr>
+    <code>object-fit: scale-down;</code>
+    <div>
+        <img src="AULAS-DE-CSS/images.png" alt="" id="scale-down">
+    </div>
+</body>
+
+</html>
