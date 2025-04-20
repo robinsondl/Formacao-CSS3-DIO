@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* [seletor] [combinador] [descendente] */
+
+        li {
+            color: red;
+        }
+
+        /*li li {
+            color: green;
+        }
+
+        #lista-1 li {
+            background: lightblue;
+        }*/
+        .fundo-verde li {
+            background-color: lightgreen;
+        }
+
+        .fundo-azul li {
+            background-color: lightblue;
+        }
+
+        .fundo-verde #sub-lista-1 li {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li class="fundo-verde" id="lista-1">
+            <div>Item 1</div>
+            <ul id="sub-lista-1">
+                <li>Sub-item A</li>
+                <li>Sub-item B</li>
+            </ul>
+        </li>
+        <li class="fundo-verde" id="lista-2">
+            <div>Item 2</div>
+            <ul id="sub-lista-2">
+                <li>Sub-item A</li>
+                <li>Sub-item B</li>
+            </ul>
+        </li>
+        <li class="fundo-azul" id="lista-3">
+            <div>Item 3</div>
+            <ul id="sub-lista-3">
+                <li>Sub-item A</li>
+                <li>Sub-item B</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>
