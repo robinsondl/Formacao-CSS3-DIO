@@ -1,0 +1,29 @@
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    border: 15px dashed red;
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 900;
+
+    background: url('/AULAS-DE-CSS/montanha.webp')
+        /* image */
+        top center / 200px 200px
+        /* position / size */
+        no-repeat
+        /* repeat */
+        fixed
+        /* attachment */
+        padding-box
+        /* origin*/
+        content-box
+        /* clip */
+        red
+        /*color*/
+    ;
+}

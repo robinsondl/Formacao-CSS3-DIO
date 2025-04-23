@@ -1,0 +1,25 @@
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    background-image: url('/AULAS-DE-CSS/montanha.webp');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 15px dashed red;
+    padding: 30px;
+}
+
+#pading-box {
+    background-origin: padding-box;
+}
+
+#border-box {
+    background-origin: border-box;
+}
+
+#content-box {
+    background-origin: content-box;
+}
