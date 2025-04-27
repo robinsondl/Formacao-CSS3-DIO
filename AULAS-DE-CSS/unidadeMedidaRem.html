@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            margin: 0;
+        }
+
+        div {
+            padding: 10px;
+        }
+
+        .exemplo-01 {
+            background-color: yellow;
+        }
+
+        .exemplo-02 {
+            background-color: palevioletred;
+        }
+
+        .exemplo-03 {
+            background-color: aquamarine;
+        }
+
+        .exemplo-04 {
+            background-color: lightsalmon;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Unidade de medida <code>em</code></h1>
+
+    <p style="font-size: 1rem;">
+        font-size 1rem = 16px;
+    </p>
+
+    <p style="font-size: 2rem;">
+        font-size 2rem = 32px;
+    </p>
+
+    <p style="font-size: 3rem;">
+        font-size 3rem = 48px;
+    </p>
+
+    <br>
+    <hr>
+    <hr>
+
+    <div class="exemplo-01" style="font-size: 20px;">
+        font-size: 1rem = 16px;
+        <div class="exemplo-02" style="font-size: 2rem;">
+            font-size: 2rem = 32px;
+            <div class="exemplo-03" style="font-size: 2rem;">
+                font-size: 2rem = 32px;
+                <div class="exemplo-04" style="font-size: 2rem;">
+                    font-size: 2rem = 32px;
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <hr>
+
+    <div class="exemplo-02" style="font-size: 30px; width: 10em;">
+        font-size: 30px; <br>
+        width: 10rem*16 = 160px;
+    </div>
+</body>
+
+</html>

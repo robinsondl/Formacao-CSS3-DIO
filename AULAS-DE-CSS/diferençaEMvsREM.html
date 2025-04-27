@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 1px solid black;
+        }
+
+        .exemplo-01 {
+            background-color: yellow;
+        }
+
+        .exemplo-02 {
+            background-color: palevioletred;
+        }
+
+        .exemplo-03 {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Unidade de medica <code>em</code> x <code>rem</code></h1>
+    <p>font-size: 2rem;<br>
+        font-size: 2em;<br>
+        font-size: 200%;</p>
+    <hr>
+    <div class="exemplo-01" style="font-size: 2rem;">
+        font-size: 2rem;
+        <div class="exemplo-02" style="font-size: 2em;">
+            font-size: 2em;
+            <div class="exemplo-03" style="font-size: 200%;">
+                font-size: 200%;
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <hr>
+
+    <div class="exemplo-01" style="font-size: 2rem;">
+        font-size: 2rem;
+        <div class="exemplo-02" style="font-size: 2em;">
+            font-size: 2em;
+        </div>
+        <div class="exemplo-03" style="font-size: 200%;">
+            font-size: 200%;
+        </div>
+        <div class="exemplo-02" style="font-size: 2rem;">
+            font-size: 2rem;
+        </div>
+    </div>
+
+</body>
+
+</html>
